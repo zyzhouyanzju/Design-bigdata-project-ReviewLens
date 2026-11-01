@@ -1,0 +1,23 @@
+{
+  "category": "smartwatches",
+  "aspects": {
+    "运动与健康监测": ["heart rate", "step", "steps", "sleep", "blood oxygen", "spo2", "ecg", " calorie", "calories", "tracker", "tracking", "accurate", "accuracy", "gps", "workout", "fitness"],
+    "续航与充电": ["battery", "battery life", "charge", "charging", "charger", "lasts", "days"],
+    "屏幕与显示": ["screen", "display", "bright", "brightness", "watch face", "faces", "read", "touch screen"],
+    "连接与同步": ["connect", "connection", "bluetooth", "sync", "syncing", "pair", "pairing", "app", "disconnect"],
+    "佩戴舒适与外观": ["comfortable", "comfort", "band", "strap", "wrist", "lightweight", "light", "heavy", "bulky", "fit"],
+    "通知与通话": ["notification", "notifications", "call", "calls", "text", "messages", "alarm", "vibrate", "vibration"],
+    "防水与耐用": ["waterproof", "water resistant", "swim", "swimming", "shower", "scratch", "durable", "quality"],
+    "触控与系统交互": ["touch", "button", "menu", "interface", "easy to use", "setup", "responsive", "lag"]
+  },
+  "scenes": {
+    "运动健身": ["running", "run", "gym", "workout", "exercise", "walking", "cycling", "hiking"],
+    "睡眠监测": ["sleep", "sleeping", "night", "bed", "overnight"],
+    "日常通勤与办公": ["work", "office", "daily", "all day", "everyday", "meeting"],
+    "游泳与涉水": ["swim", "swimming", "pool", "shower", "water"]
+  },
+  "positive": ["good", "great", "excellent", "amazing", "love", "accurate", "comfortable", "clear", "bright", "easy", "reliable", "perfect", "long", "nice", "helpful", "fast"],
+  "negative": ["bad", "poor", "terrible", "hate", "inaccurate", "uncomfortable", "broken", "dead", "disconnect", "problem", "weak", "defective", "failed", "short", "slow", "useless", "annoying", "difficult"],
+  "negations": ["not", "no", "never", "isn't", "doesn't", "don't", "didn't", "cannot", "can't", "won't"],
+  "quality_cues": ["broken", "defective", "stopped working", "won't charge", "dead", "failed", "cracked", "died"]
+}

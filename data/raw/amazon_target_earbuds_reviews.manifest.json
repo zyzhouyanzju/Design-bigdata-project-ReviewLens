@@ -1,0 +1,17 @@
+{
+  "source_url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Electronics.jsonl.gz",
+  "target_products": {
+    "B0C337TNGS": "Beats Powerbeats Pro Wireless Earbuds",
+    "B0C338S8M7": "Beats Studio Buds True Wireless Earbuds",
+    "B09PRC3WC5": "TOZO A1 Mini Wireless Earbuds"
+  },
+  "reviews_scanned": 43886944,
+  "reviews_matched": 24084,
+  "matched_by_product": {
+    "B0C337TNGS": 8989,
+    "B0C338S8M7": 6874,
+    "B09PRC3WC5": 8221
+  },
+  "completed": true,
+  "output": "E:\\zju\\大三秋冬学期\\设计大数据基础\\大作业\\data\\raw\\amazon_target_earbuds_reviews.jsonl"
+}

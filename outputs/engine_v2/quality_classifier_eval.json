@@ -1,0 +1,41 @@
+{
+  "negative_clauses_evaluated": 2907,
+  "possible_quality_clauses": 266,
+  "preference_mismatch_clauses": 2641,
+  "cv_macro_f1": 0.9669,
+  "cv_accuracy": 0.9893,
+  "top_learned_quality_terms": [
+    "dead",
+    "defective",
+    "failed",
+    "broken",
+    "charge",
+    "battery dead",
+    "case",
+    "completely",
+    "left",
+    "use",
+    "right",
+    "charging",
+    "charged",
+    "case dead",
+    "won charge"
+  ],
+  "top_learned_preference_terms": [
+    "uncomfortable",
+    "disconnect",
+    "good",
+    "problem",
+    "terrible",
+    "bad",
+    "poor",
+    "loose",
+    "comfortable",
+    "short",
+    "great",
+    "ears",
+    "pain",
+    "long",
+    "life"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "method": "aspect-specific sparse TF-IDF + MiniBatchKMeans",
+  "input_snippets": 43055,
+  "assigned_snippets": 40953,
+  "topics": 40,
+  "seed": 42,
+  "clusters_per_aspect": 5,
+  "skipped": [],
+  "elapsed_seconds": 3.93724159989506
+}

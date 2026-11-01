@@ -1,0 +1,24 @@
+{
+  "category": "wireless_earbuds",
+  "aspects": {
+    "音质": ["sound", "audio", "music", "bass", "treble", "volume"],
+    "降噪": ["noise cancellation", "noise cancelling", "anc", "noise isolation"],
+    "佩戴舒适": ["comfort", "comfortable", "uncomfortable", "ear pain", "ear ache", "ears hurt", "ear pressure"],
+    "佩戴稳定": ["fit", "fits", "stay in", "fall out", "falls out", "falling out", "loose", "secure"],
+    "连接": ["connection", "connect", "disconnect", "disconnects", "pairing", "bluetooth"],
+    "续航与充电": ["battery", "battery life", "charging", "charge", "charged"],
+    "通话": ["call", "calls", "microphone", "mic", "voice chat"],
+    "触控交互": ["touch", "button", "buttons", "controls", "tap"]
+  },
+  "scenes": {
+    "通勤": ["subway", "commute", "train", "airplane", "bus"],
+    "运动": ["running", "run", "gym", "workout", "exercise", "cycling"],
+    "办公通话": ["office", "meeting", "conference", "zoom", "work calls"],
+    "长时间佩戴": ["all day", "long hours", "for hours", "hours at a time"],
+    "居家": ["at home", "at the house"]
+  },
+  "positive": ["good", "great", "excellent", "amazing", "love", "comfortable", "clear", "perfect", "stable", "reliable", "easy", "long", "secure"],
+  "negative": ["bad", "poor", "terrible", "hate", "uncomfortable", "hurt", "pain", "broken", "dead", "disconnect", "problem", "weak", "loose", "defective", "failed", "short"],
+  "negations": ["not", "no", "never", "isn't", "doesn't", "don't", "didn't", "cannot", "can't"],
+  "quality_cues": ["broken", "defective", "stopped working", "won't charge", "dead", "failed"]
+}

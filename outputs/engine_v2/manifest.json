@@ -1,0 +1,16 @@
+{
+  "input": "data\\raw\\amazon_target_earbuds_reviews.jsonl",
+  "input_sha256": "d6830453f917fe6b3786d7e83891968d509119726614439f03232f8536c7a49f",
+  "config_sha256": "371fde8d09f32d6a36b2b221447d2e3771e0f0d8a440f2afa20b12ab77145a09",
+  "category": "wireless_earbuds",
+  "counts": {
+    "input": 24084,
+    "reviews": 23592,
+    "duplicates": 421,
+    "missing_product_or_text": 71
+  },
+  "products": 3,
+  "evidence_rows": 43102,
+  "summary_groups": 120,
+  "min_evidence": 20
+}

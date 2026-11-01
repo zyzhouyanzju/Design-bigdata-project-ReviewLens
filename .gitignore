@@ -1,0 +1,49 @@
+# Python 缓存与构建文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境与本地大包目录（极其重要，避免上传几百MB）
+.venv/
+venv/
+env/
+ENV/
+.local_packages/
+
+# IDE 与操作系统配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# 本地环境变量与临时密钥文件
+.env
+.env.local
+*.log
+
+# Streamlit 本地运行时配置
+.streamlit/secrets.toml
+
+# 针对大文件 (>50MB) 的防护（本项目中最大 pptx 为 17MB，全部小于 GitHub 100MB 限制，可安全管理）

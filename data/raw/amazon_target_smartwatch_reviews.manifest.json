@@ -1,0 +1,17 @@
+{
+  "source_archive": "E:\\zju\\大三秋冬学期\\设计大数据基础\\大作业\\data\\raw\\Electronics.jsonl.gz",
+  "target_products": {
+    "B0BLD1HN66": "Samsung Galaxy Watch 4",
+    "B0BJW6R4YX": "Amazfit Bip U Pro",
+    "B0BTV39NV3": "Garmin Venu Sq Music"
+  },
+  "records_scanned": 12000001,
+  "reviews_matched": 1324,
+  "matched_by_product": {
+    "B0BLD1HN66": 668,
+    "B0BJW6R4YX": 424,
+    "B0BTV39NV3": 232
+  },
+  "elapsed_seconds": 30.9,
+  "output": "E:\\zju\\大三秋冬学期\\设计大数据基础\\大作业\\data\\raw\\amazon_target_smartwatch_reviews.jsonl"
+}

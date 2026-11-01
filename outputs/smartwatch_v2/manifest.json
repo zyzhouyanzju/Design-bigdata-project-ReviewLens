@@ -1,0 +1,16 @@
+{
+  "input": "E:\\zju\\大三秋冬学期\\设计大数据基础\\大作业\\data\\raw\\amazon_target_smartwatch_reviews.jsonl",
+  "input_sha256": "963af0a4ebbcb60cdabc81e6556e88196bf51782be7b77cd420531f19eda8f2a",
+  "config_sha256": "10338ea5bc8fea791fef9b1ee2cbf11d0995c014d2ea680327f9c7bd459069e4",
+  "category": "smartwatches",
+  "counts": {
+    "input": 1324,
+    "reviews": 1311,
+    "duplicates": 8,
+    "missing_product_or_text": 5
+  },
+  "products": 3,
+  "evidence_rows": 4120,
+  "summary_groups": 113,
+  "min_evidence": 10
+}

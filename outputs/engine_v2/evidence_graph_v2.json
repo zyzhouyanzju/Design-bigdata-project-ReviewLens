@@ -1,0 +1,1324 @@
+{
+  "schema_version": "2.0",
+  "node_types": [
+    "product_model",
+    "experience_aspect",
+    "usage_scene",
+    "conflict_unit",
+    "review_evidence"
+  ],
+  "node_count": 87,
+  "edge_count": 105,
+  "nodes": [
+    {
+      "id": "product:B0C338S8M7",
+      "label": "Beats Studio Buds",
+      "type": "product_model",
+      "asin": "B0C338S8M7"
+    },
+    {
+      "id": "aspect:通话",
+      "label": "通话",
+      "type": "experience_aspect"
+    },
+    {
+      "id": "scene:未知",
+      "label": "未知",
+      "type": "usage_scene"
+    },
+    {
+      "id": "unit:B0C338S8M7:通话:未知",
+      "label": "Beats Studio Buds · 通话 (未知)",
+      "type": "conflict_unit",
+      "positive": 52,
+      "negative": 51,
+      "mixed": 1,
+      "positive_ratio": 0.5049,
+      "wilson_low": 0.4099,
+      "wilson_high": 0.5995,
+      "conflict_score": 0.9903
+    },
+    {
+      "id": "evidence:42751798fc5543d1c5be:通话:positive",
+      "label": "Phone calls seem pretty good too, never had any issue on either end.",
+      "type": "review_evidence",
+      "review_id": "42751798fc5543d1c5be",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:a1971f60cc5a6bad5110:通话:positive",
+      "label": "I bought these because I thought they would be good sound quality these are just mediocre headphones you’re better off w",
+      "type": "review_evidence",
+      "review_id": "a1971f60cc5a6bad5110",
+      "sentiment": "positive",
+      "rating": 1.0
+    },
+    {
+      "id": "evidence:659302800d3be51475bd:通话:negative",
+      "label": "Terrible for phone calls, people can’t hear me.",
+      "type": "review_evidence",
+      "review_id": "659302800d3be51475bd",
+      "sentiment": "negative",
+      "rating": 1.0
+    },
+    {
+      "id": "evidence:bc0e16c4fd8e4b015a90:通话:negative",
+      "label": "I could never expect the mic to be so bad!",
+      "type": "review_evidence",
+      "review_id": "bc0e16c4fd8e4b015a90",
+      "sentiment": "negative",
+      "rating": 1.0
+    },
+    {
+      "id": "product:B0C337TNGS",
+      "label": "Beats Powerbeats Pro",
+      "type": "product_model",
+      "asin": "B0C337TNGS"
+    },
+    {
+      "id": "aspect:连接",
+      "label": "连接",
+      "type": "experience_aspect"
+    },
+    {
+      "id": "unit:B0C337TNGS:连接:未知",
+      "label": "Beats Powerbeats Pro · 连接 (未知)",
+      "type": "conflict_unit",
+      "positive": 179,
+      "negative": 219,
+      "mixed": 19,
+      "positive_ratio": 0.4497,
+      "wilson_low": 0.4016,
+      "wilson_high": 0.4989,
+      "conflict_score": 0.8995
+    },
+    {
+      "id": "evidence:8364ed935bc23ddc57d4:连接:positive",
+      "label": "These have a lot of the things you want out of an apple product, instant reliable connection to Apple products, a nice l",
+      "type": "review_evidence",
+      "review_id": "8364ed935bc23ddc57d4",
+      "sentiment": "positive",
+      "rating": 3.0
+    },
+    {
+      "id": "evidence:120b4dfeaf0aa19b5bd7:连接:positive",
+      "label": "They sound just as good as any Bluetooth I’ve own!",
+      "type": "review_evidence",
+      "review_id": "120b4dfeaf0aa19b5bd7",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:a76719949b1348f42083:连接:negative",
+      "label": "These sporadically disconnect from my phone at least once/day.",
+      "type": "review_evidence",
+      "review_id": "a76719949b1348f42083",
+      "sentiment": "negative",
+      "rating": 3.0
+    },
+    {
+      "id": "evidence:d177561a6c1db1be027b:连接:negative",
+      "label": "Updates Nov16 - still hate these things pairing with my iPhone and other devices is nightmare.",
+      "type": "review_evidence",
+      "review_id": "d177561a6c1db1be027b",
+      "sentiment": "negative",
+      "rating": 1.0
+    },
+    {
+      "id": "unit:B0C338S8M7:连接:未知",
+      "label": "Beats Studio Buds · 连接 (未知)",
+      "type": "conflict_unit",
+      "positive": 85,
+      "negative": 116,
+      "mixed": 5,
+      "positive_ratio": 0.4229,
+      "wilson_low": 0.3567,
+      "wilson_high": 0.492,
+      "conflict_score": 0.8458
+    },
+    {
+      "id": "evidence:60b13892596412da8d8e:连接:positive",
+      "label": "Easy connection",
+      "type": "review_evidence",
+      "review_id": "60b13892596412da8d8e",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:76f2997f23a2a081c972:连接:positive",
+      "label": "Their wired headphones were great as well as their bluetooth headphones were just as good and had good sound considering",
+      "type": "review_evidence",
+      "review_id": "76f2997f23a2a081c972",
+      "sentiment": "positive",
+      "rating": 1.0
+    },
+    {
+      "id": "evidence:3d6a33d3ba564dc4e30d:连接:negative",
+      "label": "whenever you use controls on earbud, they disconnect from Apple watch control).",
+      "type": "review_evidence",
+      "review_id": "3d6a33d3ba564dc4e30d",
+      "sentiment": "negative",
+      "rating": 3.0
+    },
+    {
+      "id": "evidence:6fb50dff8b76c197721f:连接:negative",
+      "label": "Also, this pair will suddenly disconnect from my phone, restart, and reconnect all on its own.",
+      "type": "review_evidence",
+      "review_id": "6fb50dff8b76c197721f",
+      "sentiment": "negative",
+      "rating": 4.0
+    },
+    {
+      "id": "aspect:续航与充电",
+      "label": "续航与充电",
+      "type": "experience_aspect"
+    },
+    {
+      "id": "scene:运动",
+      "label": "运动",
+      "type": "usage_scene"
+    },
+    {
+      "id": "unit:B0C337TNGS:续航与充电:运动",
+      "label": "Beats Powerbeats Pro · 续航与充电 (运动)",
+      "type": "conflict_unit",
+      "positive": 34,
+      "negative": 21,
+      "mixed": 0,
+      "positive_ratio": 0.6182,
+      "wilson_low": 0.4861,
+      "wilson_high": 0.7348,
+      "conflict_score": 0.6661
+    },
+    {
+      "id": "evidence:d559044566839709016b:续航与充电:positive",
+      "label": "They’re great for running, charge quickly, last for hours",
+      "type": "review_evidence",
+      "review_id": "d559044566839709016b",
+      "sentiment": "positive",
+      "rating": 3.0
+    },
+    {
+      "id": "evidence:0892c306e34bc673a3ae:续航与充电:positive",
+      "label": "Charged before the gym for 15min, easily long enough, put them in ears and only the left connects.",
+      "type": "review_evidence",
+      "review_id": "0892c306e34bc673a3ae",
+      "sentiment": "positive",
+      "rating": 1.0
+    },
+    {
+      "id": "evidence:4ce35cfe4e1f4807a3c3:续航与充电:negative",
+      "label": "Which is incredibly infuriating when you're ready to go for a run, and your battery is dead.",
+      "type": "review_evidence",
+      "review_id": "4ce35cfe4e1f4807a3c3",
+      "sentiment": "negative",
+      "rating": 2.0
+    },
+    {
+      "id": "evidence:947dcf705ec79030eb6b:续航与充电:negative",
+      "label": "I’ve had several instances when I get to the gym, put them on, and one of the headphones sounds the tone that it’s batte",
+      "type": "review_evidence",
+      "review_id": "947dcf705ec79030eb6b",
+      "sentiment": "negative",
+      "rating": 2.0
+    },
+    {
+      "id": "unit:B0C338S8M7:续航与充电:未知",
+      "label": "Beats Studio Buds · 续航与充电 (未知)",
+      "type": "conflict_unit",
+      "positive": 395,
+      "negative": 185,
+      "mixed": 8,
+      "positive_ratio": 0.681,
+      "wilson_low": 0.642,
+      "wilson_high": 0.7177,
+      "conflict_score": 0.6379
+    },
+    {
+      "id": "evidence:fa33a71d5c9ede43ce36:续航与充电:positive",
+      "label": "Sounds great, small simple design, super fast charging.",
+      "type": "review_evidence",
+      "review_id": "fa33a71d5c9ede43ce36",
+      "sentiment": "positive",
+      "rating": 4.0
+    },
+    {
+      "id": "evidence:58f91309803105dcc40a:续航与充电:positive",
+      "label": "Also the battery life is really good I feel like I don't have to charge them too often.",
+      "type": "review_evidence",
+      "review_id": "58f91309803105dcc40a",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:d6c06773be1a6a017d95:续航与充电:negative",
+      "label": "The battery life is extremely short.",
+      "type": "review_evidence",
+      "review_id": "d6c06773be1a6a017d95",
+      "sentiment": "negative",
+      "rating": 2.0
+    },
+    {
+      "id": "evidence:88d5173a64fda92ff735:续航与充电:negative",
+      "label": "Battery life is too short for me.",
+      "type": "review_evidence",
+      "review_id": "88d5173a64fda92ff735",
+      "sentiment": "negative",
+      "rating": 3.0
+    },
+    {
+      "id": "aspect:佩戴稳定",
+      "label": "佩戴稳定",
+      "type": "experience_aspect"
+    },
+    {
+      "id": "unit:B0C338S8M7:佩戴稳定:未知",
+      "label": "Beats Studio Buds · 佩戴稳定 (未知)",
+      "type": "conflict_unit",
+      "positive": 232,
+      "negative": 108,
+      "mixed": 8,
+      "positive_ratio": 0.6824,
+      "wilson_low": 0.6311,
+      "wilson_high": 0.7296,
+      "conflict_score": 0.6353
+    },
+    {
+      "id": "evidence:ec775b19fdb6592f6347:佩戴稳定:positive",
+      "label": "With three sizes of bud cushions included, you’ll find the perfect fit for comfort and noise cancellation.",
+      "type": "review_evidence",
+      "review_id": "ec775b19fdb6592f6347",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:ed5a1d80cf0fe19fcff2:佩戴稳定:positive",
+      "label": "These are easy to fit and use, it does take getting used to the one button operation",
+      "type": "review_evidence",
+      "review_id": "ed5a1d80cf0fe19fcff2",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:ccb4633ed5540f6f16ce:佩戴稳定:negative",
+      "label": "The fit was terrible, I tried all the adaptors provided with the item",
+      "type": "review_evidence",
+      "review_id": "ccb4633ed5540f6f16ce",
+      "sentiment": "negative",
+      "rating": 3.0
+    },
+    {
+      "id": "evidence:50ae752437f28e45a561:佩戴稳定:negative",
+      "label": "If I hear one more story about this ladies cat I’m going to loose it!",
+      "type": "review_evidence",
+      "review_id": "50ae752437f28e45a561",
+      "sentiment": "negative",
+      "rating": 5.0
+    },
+    {
+      "id": "product:B09PRC3WC5",
+      "label": "TOZO A1 Mini",
+      "type": "product_model",
+      "asin": "B09PRC3WC5"
+    },
+    {
+      "id": "unit:B09PRC3WC5:连接:未知",
+      "label": "TOZO A1 Mini · 连接 (未知)",
+      "type": "conflict_unit",
+      "positive": 170,
+      "negative": 74,
+      "mixed": 5,
+      "positive_ratio": 0.6967,
+      "wilson_low": 0.6364,
+      "wilson_high": 0.751,
+      "conflict_score": 0.6066
+    },
+    {
+      "id": "evidence:01c647a9a61a597220b2:连接:positive",
+      "label": "Easy pairing.",
+      "type": "review_evidence",
+      "review_id": "01c647a9a61a597220b2",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:908c3cc1a80f4c07dba8:连接:positive",
+      "label": "Pairing was very easy to phone and tablet.",
+      "type": "review_evidence",
+      "review_id": "908c3cc1a80f4c07dba8",
+      "sentiment": "positive",
+      "rating": 4.0
+    },
+    {
+      "id": "evidence:0c71c09e902e89a18b4b:连接:negative",
+      "label": "And they disconnect from Bluetooth constantly.",
+      "type": "review_evidence",
+      "review_id": "0c71c09e902e89a18b4b",
+      "sentiment": "negative",
+      "rating": 2.0
+    },
+    {
+      "id": "evidence:31befeb6b4f359179eff:连接:negative",
+      "label": "Also, they disconnect over and over.",
+      "type": "review_evidence",
+      "review_id": "31befeb6b4f359179eff",
+      "sentiment": "negative",
+      "rating": 1.0
+    },
+    {
+      "id": "aspect:佩戴舒适",
+      "label": "佩戴舒适",
+      "type": "experience_aspect"
+    },
+    {
+      "id": "unit:B0C338S8M7:佩戴舒适:未知",
+      "label": "Beats Studio Buds · 佩戴舒适 (未知)",
+      "type": "conflict_unit",
+      "positive": 242,
+      "negative": 102,
+      "mixed": 11,
+      "positive_ratio": 0.7035,
+      "wilson_low": 0.6532,
+      "wilson_high": 0.7493,
+      "conflict_score": 0.593
+    },
+    {
+      "id": "evidence:0567dd10d10e49be1d17:佩戴舒适:positive",
+      "label": "And they are very comfortable to wear.",
+      "type": "review_evidence",
+      "review_id": "0567dd10d10e49be1d17",
+      "sentiment": "positive",
+      "rating": 4.0
+    },
+    {
+      "id": "evidence:5aebc7408c5def6c324b:佩戴舒适:positive",
+      "label": "Comfortable.",
+      "type": "review_evidence",
+      "review_id": "5aebc7408c5def6c324b",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:e6aad1ec886f21c27b83:佩戴舒适:negative",
+      "label": "the bud itself sticks out your ears a little more, so they are uncomfortable to lay on if you were to watch a movie in b",
+      "type": "review_evidence",
+      "review_id": "e6aad1ec886f21c27b83",
+      "sentiment": "negative",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:290e11c7dfd3991ea6c1:佩戴舒适:negative",
+      "label": "Also the studio buds were personally very uncomfortable.",
+      "type": "review_evidence",
+      "review_id": "290e11c7dfd3991ea6c1",
+      "sentiment": "negative",
+      "rating": 2.0
+    },
+    {
+      "id": "unit:B0C337TNGS:续航与充电:未知",
+      "label": "Beats Powerbeats Pro · 续航与充电 (未知)",
+      "type": "conflict_unit",
+      "positive": 690,
+      "negative": 263,
+      "mixed": 25,
+      "positive_ratio": 0.724,
+      "wilson_low": 0.6948,
+      "wilson_high": 0.7515,
+      "conflict_score": 0.5519
+    },
+    {
+      "id": "evidence:6111e2923b106494656e:续航与充电:positive",
+      "label": "Very nice, charging is awesome, love these.",
+      "type": "review_evidence",
+      "review_id": "6111e2923b106494656e",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:23048c32718b33e09a68:续航与充电:positive",
+      "label": "the battery life is amazing.",
+      "type": "review_evidence",
+      "review_id": "23048c32718b33e09a68",
+      "sentiment": "positive",
+      "rating": 4.0
+    },
+    {
+      "id": "evidence:aa607e7c5074c997f2d7:续航与充电:negative",
+      "label": "After charging complete and then finding out that only one earphone charged and one is dead.",
+      "type": "review_evidence",
+      "review_id": "aa607e7c5074c997f2d7",
+      "sentiment": "negative",
+      "rating": 4.0
+    },
+    {
+      "id": "evidence:33800de4b94827632fd4:续航与充电:negative",
+      "label": "I’m also having a problem with charging these up.",
+      "type": "review_evidence",
+      "review_id": "33800de4b94827632fd4",
+      "sentiment": "negative",
+      "rating": 1.0
+    },
+    {
+      "id": "unit:B0C337TNGS:连接:运动",
+      "label": "Beats Powerbeats Pro · 连接 (运动)",
+      "type": "conflict_unit",
+      "positive": 9,
+      "negative": 15,
+      "mixed": 0,
+      "positive_ratio": 0.375,
+      "wilson_low": 0.2116,
+      "wilson_high": 0.5729,
+      "conflict_score": 0.5231
+    },
+    {
+      "id": "evidence:d4eb5af4e09bbe1bea17:连接:positive",
+      "label": "PROS: good fit, stay in place, sound really good, good comfort, awesome battery, decent for calls, great at the gym, pre",
+      "type": "review_evidence",
+      "review_id": "d4eb5af4e09bbe1bea17",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:3acb6eba2f88590d6ebb:连接:positive",
+      "label": "I don’t do anything different from the days it works great, so when it acts up and disconnects a lot it gets very frustr",
+      "type": "review_evidence",
+      "review_id": "3acb6eba2f88590d6ebb",
+      "sentiment": "positive",
+      "rating": 4.0
+    },
+    {
+      "id": "evidence:1f73f983407383c739c1:连接:negative",
+      "label": "When the bluetooth failed and I sought support, I was told that Amazon had purchased them from Apple last July so the wa",
+      "type": "review_evidence",
+      "review_id": "1f73f983407383c739c1",
+      "sentiment": "negative",
+      "rating": 1.0
+    },
+    {
+      "id": "evidence:32367499deae6b537be2:连接:negative",
+      "label": "they are not at all useful for taking professional calls (mic too fuzzy), wearing during certain exercise or wearing whi",
+      "type": "review_evidence",
+      "review_id": "32367499deae6b537be2",
+      "sentiment": "negative",
+      "rating": 3.0
+    },
+    {
+      "id": "unit:B09PRC3WC5:通话:未知",
+      "label": "TOZO A1 Mini · 通话 (未知)",
+      "type": "conflict_unit",
+      "positive": 93,
+      "negative": 31,
+      "mixed": 1,
+      "positive_ratio": 0.75,
+      "wilson_low": 0.6671,
+      "wilson_high": 0.8179,
+      "conflict_score": 0.5
+    },
+    {
+      "id": "evidence:a8f51897b56626fd93ca:通话:positive",
+      "label": "While the A1 is a bit underwhelming, I can confirm that microphone quality is excellent.",
+      "type": "review_evidence",
+      "review_id": "a8f51897b56626fd93ca",
+      "sentiment": "positive",
+      "rating": 4.0
+    },
+    {
+      "id": "evidence:0ca4c0a8a19cfbb34550:通话:positive",
+      "label": "Phone calls come in clear.",
+      "type": "review_evidence",
+      "review_id": "0ca4c0a8a19cfbb34550",
+      "sentiment": "positive",
+      "rating": 4.0
+    },
+    {
+      "id": "evidence:1cca312cd2a4eb247e86:通话:negative",
+      "label": "The only complaint I have it is they are not good for phone calls.",
+      "type": "review_evidence",
+      "review_id": "1cca312cd2a4eb247e86",
+      "sentiment": "negative",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:d7fdc42c0e67e243c5a3:通话:negative",
+      "label": "the mic quality was very poor and seemed to cut out randomly, like it only picks up very loud speech.",
+      "type": "review_evidence",
+      "review_id": "d7fdc42c0e67e243c5a3",
+      "sentiment": "negative",
+      "rating": 2.0
+    },
+    {
+      "id": "unit:B0C337TNGS:佩戴舒适:未知",
+      "label": "Beats Powerbeats Pro · 佩戴舒适 (未知)",
+      "type": "conflict_unit",
+      "positive": 654,
+      "negative": 200,
+      "mixed": 30,
+      "positive_ratio": 0.7658,
+      "wilson_low": 0.7363,
+      "wilson_high": 0.793,
+      "conflict_score": 0.4684
+    },
+    {
+      "id": "evidence:feb79b1e92a47d34b23a:佩戴舒适:positive",
+      "label": "These are amazing and so comfortable I will be buying more for my family!",
+      "type": "review_evidence",
+      "review_id": "feb79b1e92a47d34b23a",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:ae48131bade1401b21ab:佩戴舒适:positive",
+      "label": "At last, I finally found a pair of over ear buds that are comfortable and sound good.",
+      "type": "review_evidence",
+      "review_id": "ae48131bade1401b21ab",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:1dae898cc959976930c3:佩戴舒适:negative",
+      "label": "A lot of earbuds get uncomfortable fast",
+      "type": "review_evidence",
+      "review_id": "1dae898cc959976930c3",
+      "sentiment": "negative",
+      "rating": 4.0
+    },
+    {
+      "id": "evidence:68f38a252f14cba3ea43:佩戴舒适:negative",
+      "label": "I cannot get a comfortable fit.",
+      "type": "review_evidence",
+      "review_id": "68f38a252f14cba3ea43",
+      "sentiment": "negative",
+      "rating": 2.0
+    },
+    {
+      "id": "aspect:触控交互",
+      "label": "触控交互",
+      "type": "experience_aspect"
+    },
+    {
+      "id": "unit:B09PRC3WC5:触控交互:未知",
+      "label": "TOZO A1 Mini · 触控交互 (未知)",
+      "type": "conflict_unit",
+      "positive": 55,
+      "negative": 14,
+      "mixed": 0,
+      "positive_ratio": 0.7971,
+      "wilson_low": 0.6878,
+      "wilson_high": 0.8751,
+      "conflict_score": 0.3736
+    },
+    {
+      "id": "evidence:63aaa3138e57d9d39b14:触控交互:positive",
+      "label": "with the earbuds being small, it’s easy to accidentally initiate the touch function while adjusting the earbuds in your ",
+      "type": "review_evidence",
+      "review_id": "63aaa3138e57d9d39b14",
+      "sentiment": "positive",
+      "rating": 4.0
+    },
+    {
+      "id": "evidence:dd81b52e46c6c9095b90:触控交互:positive",
+      "label": "Touch controls work good.",
+      "type": "review_evidence",
+      "review_id": "dd81b52e46c6c9095b90",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:65b020c7952d9913f3c5:触控交互:negative",
+      "label": "Only problem is with the button for switching",
+      "type": "review_evidence",
+      "review_id": "65b020c7952d9913f3c5",
+      "sentiment": "negative",
+      "rating": 4.0
+    },
+    {
+      "id": "evidence:1693c7801bb2d6ec24da:触控交互:negative",
+      "label": "I was having a problem with touch feature as mentioned in the video above",
+      "type": "review_evidence",
+      "review_id": "1693c7801bb2d6ec24da",
+      "sentiment": "negative",
+      "rating": 5.0
+    },
+    {
+      "id": "aspect:降噪",
+      "label": "降噪",
+      "type": "experience_aspect"
+    },
+    {
+      "id": "unit:B0C337TNGS:降噪:未知",
+      "label": "Beats Powerbeats Pro · 降噪 (未知)",
+      "type": "conflict_unit",
+      "positive": 93,
+      "negative": 20,
+      "mixed": 1,
+      "positive_ratio": 0.823,
+      "wilson_low": 0.7424,
+      "wilson_high": 0.8824,
+      "conflict_score": 0.354
+    },
+    {
+      "id": "evidence:936059a2c7e08c480cee:降噪:positive",
+      "label": "They are comfortable in my ear, don’t fall out and have an amazing noise cancelling quality.",
+      "type": "review_evidence",
+      "review_id": "936059a2c7e08c480cee",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:4131e3bce579e4c7688b:降噪:positive",
+      "label": "Great: noise cancelling, microphone quality, quick Bluetooth sync, battery life, comfort, controls on each piece Just OK",
+      "type": "review_evidence",
+      "review_id": "4131e3bce579e4c7688b",
+      "sentiment": "positive",
+      "rating": 4.0
+    },
+    {
+      "id": "evidence:342c0471cfd9994ee87e:降噪:negative",
+      "label": "Sound is not good, noise cancellation is none existent.",
+      "type": "review_evidence",
+      "review_id": "342c0471cfd9994ee87e",
+      "sentiment": "negative",
+      "rating": 3.0
+    },
+    {
+      "id": "evidence:70c3a0b612791d605163:降噪:negative",
+      "label": "these come up short for two reasons: They have NO noise cancellation which has listeners struggling to clearly hear you ",
+      "type": "review_evidence",
+      "review_id": "70c3a0b612791d605163",
+      "sentiment": "negative",
+      "rating": 4.0
+    },
+    {
+      "id": "unit:B0C338S8M7:降噪:未知",
+      "label": "Beats Studio Buds · 降噪 (未知)",
+      "type": "conflict_unit",
+      "positive": 240,
+      "negative": 49,
+      "mixed": 2,
+      "positive_ratio": 0.8304,
+      "wilson_low": 0.7829,
+      "wilson_high": 0.8693,
+      "conflict_score": 0.3391
+    },
+    {
+      "id": "evidence:3d6a33d3ba564dc4e30d:降噪:positive",
+      "label": "Positive: Strong base sound, very good noise cancellation, OK sound overall.",
+      "type": "review_evidence",
+      "review_id": "3d6a33d3ba564dc4e30d",
+      "sentiment": "positive",
+      "rating": 3.0
+    },
+    {
+      "id": "evidence:d717347fae1d0b57d5cd:降噪:positive",
+      "label": "The ANC is great too, blocks out outside noise great.",
+      "type": "review_evidence",
+      "review_id": "d717347fae1d0b57d5cd",
+      "sentiment": "positive",
+      "rating": 5.0
+    },
+    {
+      "id": "evidence:238f4dadfa316b81a419:降噪:negative",
+      "label": "The battery life is not great, the \"true\" ANC doesn't work as well as you'd think, and they even look silly in my ears.",
+      "type": "review_evidence",
+      "review_id": "238f4dadfa316b81a419",
+      "sentiment": "negative",
+      "rating": 2.0
+    },
+    {
+      "id": "evidence:a1a56638ac528ebe3966:降噪:negative",
+      "label": "Also, the noise cancellation is pretty lame - not nearly as good as the AirPod Pros.",
+      "type": "review_evidence",
+      "review_id": "a1a56638ac528ebe3966",
+      "sentiment": "negative",
+      "rating": 4.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "product:B0C338S8M7",
+      "target": "unit:B0C338S8M7:通话:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B0C338S8M7:通话:未知",
+      "target": "aspect:通话",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B0C338S8M7:通话:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B0C338S8M7:通话:未知",
+      "target": "evidence:42751798fc5543d1c5be:通话:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C338S8M7:通话:未知",
+      "target": "evidence:a1971f60cc5a6bad5110:通话:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C338S8M7:通话:未知",
+      "target": "evidence:659302800d3be51475bd:通话:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B0C338S8M7:通话:未知",
+      "target": "evidence:bc0e16c4fd8e4b015a90:通话:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B0C337TNGS",
+      "target": "unit:B0C337TNGS:连接:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B0C337TNGS:连接:未知",
+      "target": "aspect:连接",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B0C337TNGS:连接:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B0C337TNGS:连接:未知",
+      "target": "evidence:8364ed935bc23ddc57d4:连接:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C337TNGS:连接:未知",
+      "target": "evidence:120b4dfeaf0aa19b5bd7:连接:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C337TNGS:连接:未知",
+      "target": "evidence:a76719949b1348f42083:连接:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B0C337TNGS:连接:未知",
+      "target": "evidence:d177561a6c1db1be027b:连接:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B0C338S8M7",
+      "target": "unit:B0C338S8M7:连接:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B0C338S8M7:连接:未知",
+      "target": "aspect:连接",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B0C338S8M7:连接:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B0C338S8M7:连接:未知",
+      "target": "evidence:60b13892596412da8d8e:连接:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C338S8M7:连接:未知",
+      "target": "evidence:76f2997f23a2a081c972:连接:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C338S8M7:连接:未知",
+      "target": "evidence:3d6a33d3ba564dc4e30d:连接:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B0C338S8M7:连接:未知",
+      "target": "evidence:6fb50dff8b76c197721f:连接:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B0C337TNGS",
+      "target": "unit:B0C337TNGS:续航与充电:运动",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B0C337TNGS:续航与充电:运动",
+      "target": "aspect:续航与充电",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B0C337TNGS:续航与充电:运动",
+      "target": "scene:运动",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B0C337TNGS:续航与充电:运动",
+      "target": "evidence:d559044566839709016b:续航与充电:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C337TNGS:续航与充电:运动",
+      "target": "evidence:0892c306e34bc673a3ae:续航与充电:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C337TNGS:续航与充电:运动",
+      "target": "evidence:4ce35cfe4e1f4807a3c3:续航与充电:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B0C337TNGS:续航与充电:运动",
+      "target": "evidence:947dcf705ec79030eb6b:续航与充电:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B0C338S8M7",
+      "target": "unit:B0C338S8M7:续航与充电:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B0C338S8M7:续航与充电:未知",
+      "target": "aspect:续航与充电",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B0C338S8M7:续航与充电:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B0C338S8M7:续航与充电:未知",
+      "target": "evidence:fa33a71d5c9ede43ce36:续航与充电:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C338S8M7:续航与充电:未知",
+      "target": "evidence:58f91309803105dcc40a:续航与充电:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C338S8M7:续航与充电:未知",
+      "target": "evidence:d6c06773be1a6a017d95:续航与充电:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B0C338S8M7:续航与充电:未知",
+      "target": "evidence:88d5173a64fda92ff735:续航与充电:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B0C338S8M7",
+      "target": "unit:B0C338S8M7:佩戴稳定:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B0C338S8M7:佩戴稳定:未知",
+      "target": "aspect:佩戴稳定",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B0C338S8M7:佩戴稳定:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B0C338S8M7:佩戴稳定:未知",
+      "target": "evidence:ec775b19fdb6592f6347:佩戴稳定:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C338S8M7:佩戴稳定:未知",
+      "target": "evidence:ed5a1d80cf0fe19fcff2:佩戴稳定:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C338S8M7:佩戴稳定:未知",
+      "target": "evidence:ccb4633ed5540f6f16ce:佩戴稳定:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B0C338S8M7:佩戴稳定:未知",
+      "target": "evidence:50ae752437f28e45a561:佩戴稳定:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B09PRC3WC5",
+      "target": "unit:B09PRC3WC5:连接:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B09PRC3WC5:连接:未知",
+      "target": "aspect:连接",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B09PRC3WC5:连接:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B09PRC3WC5:连接:未知",
+      "target": "evidence:01c647a9a61a597220b2:连接:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B09PRC3WC5:连接:未知",
+      "target": "evidence:908c3cc1a80f4c07dba8:连接:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B09PRC3WC5:连接:未知",
+      "target": "evidence:0c71c09e902e89a18b4b:连接:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B09PRC3WC5:连接:未知",
+      "target": "evidence:31befeb6b4f359179eff:连接:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B0C338S8M7",
+      "target": "unit:B0C338S8M7:佩戴舒适:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B0C338S8M7:佩戴舒适:未知",
+      "target": "aspect:佩戴舒适",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B0C338S8M7:佩戴舒适:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B0C338S8M7:佩戴舒适:未知",
+      "target": "evidence:0567dd10d10e49be1d17:佩戴舒适:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C338S8M7:佩戴舒适:未知",
+      "target": "evidence:5aebc7408c5def6c324b:佩戴舒适:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C338S8M7:佩戴舒适:未知",
+      "target": "evidence:e6aad1ec886f21c27b83:佩戴舒适:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B0C338S8M7:佩戴舒适:未知",
+      "target": "evidence:290e11c7dfd3991ea6c1:佩戴舒适:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B0C337TNGS",
+      "target": "unit:B0C337TNGS:续航与充电:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B0C337TNGS:续航与充电:未知",
+      "target": "aspect:续航与充电",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B0C337TNGS:续航与充电:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B0C337TNGS:续航与充电:未知",
+      "target": "evidence:6111e2923b106494656e:续航与充电:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C337TNGS:续航与充电:未知",
+      "target": "evidence:23048c32718b33e09a68:续航与充电:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C337TNGS:续航与充电:未知",
+      "target": "evidence:aa607e7c5074c997f2d7:续航与充电:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B0C337TNGS:续航与充电:未知",
+      "target": "evidence:33800de4b94827632fd4:续航与充电:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B0C337TNGS",
+      "target": "unit:B0C337TNGS:连接:运动",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B0C337TNGS:连接:运动",
+      "target": "aspect:连接",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B0C337TNGS:连接:运动",
+      "target": "scene:运动",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B0C337TNGS:连接:运动",
+      "target": "evidence:d4eb5af4e09bbe1bea17:连接:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C337TNGS:连接:运动",
+      "target": "evidence:3acb6eba2f88590d6ebb:连接:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C337TNGS:连接:运动",
+      "target": "evidence:1f73f983407383c739c1:连接:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B0C337TNGS:连接:运动",
+      "target": "evidence:32367499deae6b537be2:连接:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B09PRC3WC5",
+      "target": "unit:B09PRC3WC5:通话:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B09PRC3WC5:通话:未知",
+      "target": "aspect:通话",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B09PRC3WC5:通话:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B09PRC3WC5:通话:未知",
+      "target": "evidence:a8f51897b56626fd93ca:通话:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B09PRC3WC5:通话:未知",
+      "target": "evidence:0ca4c0a8a19cfbb34550:通话:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B09PRC3WC5:通话:未知",
+      "target": "evidence:1cca312cd2a4eb247e86:通话:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B09PRC3WC5:通话:未知",
+      "target": "evidence:d7fdc42c0e67e243c5a3:通话:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B0C337TNGS",
+      "target": "unit:B0C337TNGS:佩戴舒适:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B0C337TNGS:佩戴舒适:未知",
+      "target": "aspect:佩戴舒适",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B0C337TNGS:佩戴舒适:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B0C337TNGS:佩戴舒适:未知",
+      "target": "evidence:feb79b1e92a47d34b23a:佩戴舒适:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C337TNGS:佩戴舒适:未知",
+      "target": "evidence:ae48131bade1401b21ab:佩戴舒适:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C337TNGS:佩戴舒适:未知",
+      "target": "evidence:1dae898cc959976930c3:佩戴舒适:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B0C337TNGS:佩戴舒适:未知",
+      "target": "evidence:68f38a252f14cba3ea43:佩戴舒适:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B09PRC3WC5",
+      "target": "unit:B09PRC3WC5:触控交互:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B09PRC3WC5:触控交互:未知",
+      "target": "aspect:触控交互",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B09PRC3WC5:触控交互:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B09PRC3WC5:触控交互:未知",
+      "target": "evidence:63aaa3138e57d9d39b14:触控交互:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B09PRC3WC5:触控交互:未知",
+      "target": "evidence:dd81b52e46c6c9095b90:触控交互:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B09PRC3WC5:触控交互:未知",
+      "target": "evidence:65b020c7952d9913f3c5:触控交互:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B09PRC3WC5:触控交互:未知",
+      "target": "evidence:1693c7801bb2d6ec24da:触控交互:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B0C337TNGS",
+      "target": "unit:B0C337TNGS:降噪:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B0C337TNGS:降噪:未知",
+      "target": "aspect:降噪",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B0C337TNGS:降噪:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B0C337TNGS:降噪:未知",
+      "target": "evidence:936059a2c7e08c480cee:降噪:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C337TNGS:降噪:未知",
+      "target": "evidence:4131e3bce579e4c7688b:降噪:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C337TNGS:降噪:未知",
+      "target": "evidence:342c0471cfd9994ee87e:降噪:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B0C337TNGS:降噪:未知",
+      "target": "evidence:70c3a0b612791d605163:降噪:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "product:B0C338S8M7",
+      "target": "unit:B0C338S8M7:降噪:未知",
+      "relation": "has_evaluation_unit"
+    },
+    {
+      "source": "unit:B0C338S8M7:降噪:未知",
+      "target": "aspect:降噪",
+      "relation": "evaluates_aspect"
+    },
+    {
+      "source": "unit:B0C338S8M7:降噪:未知",
+      "target": "scene:未知",
+      "relation": "in_usage_scene"
+    },
+    {
+      "source": "unit:B0C338S8M7:降噪:未知",
+      "target": "evidence:3d6a33d3ba564dc4e30d:降噪:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C338S8M7:降噪:未知",
+      "target": "evidence:d717347fae1d0b57d5cd:降噪:positive",
+      "relation": "supported_by_positive_evidence",
+      "sentiment": "positive"
+    },
+    {
+      "source": "unit:B0C338S8M7:降噪:未知",
+      "target": "evidence:238f4dadfa316b81a419:降噪:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    },
+    {
+      "source": "unit:B0C338S8M7:降噪:未知",
+      "target": "evidence:a1a56638ac528ebe3966:降噪:negative",
+      "relation": "supported_by_negative_evidence",
+      "sentiment": "negative"
+    }
+  ]
+}

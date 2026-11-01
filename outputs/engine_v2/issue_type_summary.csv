@@ -1,0 +1,25 @@
+﻿product_id,product_name,aspect,negative_evidence_count,possible_quality_count,preference_or_mismatch_count,quality_issue_ratio
+B0C337TNGS,Beats Powerbeats Pro,续航与充电,335,140,195,0.4179
+B0C337TNGS,Beats Powerbeats Pro,触控交互,17,4,13,0.2353
+B0C338S8M7,Beats Studio Buds,续航与充电,198,30,168,0.1515
+B09PRC3WC5,TOZO A1 Mini,续航与充电,133,19,114,0.1429
+B0C338S8M7,Beats Studio Buds,触控交互,8,1,7,0.125
+B09PRC3WC5,TOZO A1 Mini,降噪,11,1,10,0.0909
+B0C337TNGS,Beats Powerbeats Pro,连接,272,22,250,0.0809
+B0C337TNGS,Beats Powerbeats Pro,通话,28,2,26,0.0714
+B09PRC3WC5,TOZO A1 Mini,音质,252,14,238,0.0556
+B09PRC3WC5,TOZO A1 Mini,连接,86,4,82,0.0465
+B0C337TNGS,Beats Powerbeats Pro,佩戴稳定,98,4,94,0.0408
+B0C337TNGS,Beats Powerbeats Pro,音质,283,11,272,0.0389
+B0C338S8M7,Beats Studio Buds,降噪,53,2,51,0.0377
+B0C338S8M7,Beats Studio Buds,通话,54,2,52,0.037
+B0C338S8M7,Beats Studio Buds,连接,128,4,124,0.0312
+B0C338S8M7,Beats Studio Buds,音质,176,4,172,0.0227
+B09PRC3WC5,TOZO A1 Mini,佩戴稳定,81,1,80,0.0123
+B0C338S8M7,Beats Studio Buds,佩戴稳定,128,1,127,0.0078
+B0C337TNGS,Beats Powerbeats Pro,佩戴舒适,251,0,251,0.0
+B09PRC3WC5,TOZO A1 Mini,佩戴舒适,124,0,124,0.0
+B0C338S8M7,Beats Studio Buds,佩戴舒适,121,0,121,0.0
+B09PRC3WC5,TOZO A1 Mini,通话,34,0,34,0.0
+B0C337TNGS,Beats Powerbeats Pro,降噪,22,0,22,0.0
+B09PRC3WC5,TOZO A1 Mini,触控交互,14,0,14,0.0
